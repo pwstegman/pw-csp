@@ -1,29 +1,30 @@
 {
-  "name": "pw-csp",
-  "version": "1.0.0",
-  "description": "Common spatial pattern",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pwstegman/pw-csp.git"
-  },
+	"name": "pw-csp",
+	"version": "1.0.0",
+	"description": "Common spatial pattern",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pwstegman/pw-csp.git"
+	},
 	"keywords": [
-		"CSP",
-		"Common spatial pattern",
-		"signal processing"
+		"csp",
+		"common spatial pattern",
+		"signal processing",
+		"bci"
 	],
-  "author": "Pierce Stegman <pwstegman@gmail.com> (https://github.com/pwstegman/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pwstegman/pw-csp/issues"
-  },
-  "homepage": "https://github.com/pwstegman/pw-csp#readme",
-  "dependencies": {
-    "mathjs": "^3.16.5",
-    "numeric": "^1.2.6",
-    "pw-stat": "^1.0.0"
-  }
+	"author": "Pierce Stegman <pwstegman@gmail.com> (https://github.com/pwstegman)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/pwstegman/pw-csp/issues"
+	},
+	"homepage": "https://github.com/pwstegman/pw-csp#readme",
+	"dependencies": {
+		"mathjs": "^3.16.5",
+		"numeric": "^1.2.6",
+		"pw-stat": "^1.0.0"
+	}
 }
