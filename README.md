@@ -9,6 +9,10 @@ npm install pw-csp
 
 ## Getting Started
 
+CSP projects classes of data points so that one has high variance in one axis, and the other has high variance in the other axis.
+
+The example below is two-dimensional, but any number of dimensions may be used. The csp.project function accepts an array of data points, projects them using CSP, and returns the requested number of dimensions, sorted by descending importance. Each array should be of size *number of samples* rows x *number of signals* columns.
+
 ```javascript
 var CSP = require('pw-csp');
 
