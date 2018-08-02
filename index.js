@@ -1,5 +1,9 @@
+const math = require('mathjs/core').create();
+math.import(require('mathjs/lib/type/matrix'));
+math.import(require('mathjs/lib/function/arithmetic'));
+math.import(require('mathjs/lib/function/matrix'));
+
 var numeric = require('numeric');
-var math = require('mathjs');
 var stat = require('pw-stat');
 
 /**
